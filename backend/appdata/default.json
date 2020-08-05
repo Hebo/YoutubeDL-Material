@@ -1,8 +1,8 @@
 {
   "YoutubeDLMaterial": {
     "Host": {
-      "url": "http://example.com",
-      "port": "17442"
+      "url": "http://ytdl.salt.gg",
+      "port": "5000"
     },
     "Encryption": {
       "use-encryption": false,
@@ -13,11 +13,11 @@
       "path-audio": "audio/",
       "path-video": "video/",
       "use_youtubedl_archive": false,
-      "custom_args": "",
+      "custom_args": "-f,,best[height<=?720]",
       "safe_download_override": false
     },
     "Extra": {
-      "title_top": "YoutubeDL-Material",
+      "title_top": "🎥 MeToob",
       "file_manager_enabled": true,
       "allow_quality_select": true,
       "download_only_mode": false,
@@ -25,8 +25,8 @@
       "enable_downloads_manager": true
     },
     "API": {
-      "use_API_key": false,
-      "API_key": "",
+      "use_API_key": true,
+      "API_key": "3a1b9885-d617-43cf-b348-f8d9244d2550",
       "use_youtube_API": false,
       "youtube_API_key": ""
     },
